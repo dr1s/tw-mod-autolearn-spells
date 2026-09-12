@@ -1,0 +1,14 @@
+###################################################################################################
+# tw-mod-autolearn-spells module configuration
+###################################################################################################
+
+[AutoLearnSpells]
+
+# Enable automatic spell learning on level-up and login catch-up.
+AutoLearnSpells.Enable = 1
+
+# Learn all missing spells for the player's current level when they log in.
+AutoLearnSpells.CatchUpOnLogin = 1
+
+# Highest level at which spells will be auto-learned.
+AutoLearnSpells.MaxLevel = 60
